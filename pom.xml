@@ -20,7 +20,7 @@
 			<url>scpexe://minorityhobbies.com/maven/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>releases-repository</id>
+			<id>snapshots-repository</id>
 			<uniqueVersion>true</uniqueVersion>
 			<url>scpexe://minorityhobbies.com/maven/repositories/snapshots</url>
 		</snapshotRepository>
