@@ -6,6 +6,39 @@
 	<packaging>pom</packaging>
 	<name>Java 8 project</name>
 
+    <licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <distribution>repo</distribution>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+        
+    <developers>
+        <developer>
+            <id>chrisw</id>
+            <name>Chris Wraith</name>
+            <email>chrisw@minorityhobbies.com</email>
+        </developer>
+    </developers>
+
+    <repositories>
+        <repository>
+            <id>releases-repository</id>
+            <url>https://minorityhobbies.com/maven/repositories/releases</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshots-repository</id>
+            <url>https://minorityhobbies.com/maven/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
 	<scm>
 		<connection>scm:git:https://github.com/jacksonps4/java8.pom.git</connection>
 		<developerConnection>scm:git:git@github.com:jacksonps4/java8.pom.git</developerConnection>
