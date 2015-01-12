@@ -104,6 +104,16 @@
 				<artifactId>jutils</artifactId>
 				<version>1.7</version>
 			</dependency>
+			<dependency>
+				<groupId>com.minorityhobbies</groupId>
+				<artifactId>jutils.ee</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.minorityhobbies</groupId>
+				<artifactId>jutils.ee.common</artifactId>
+				<version>1.0</version>
+			</dependency>
 
 			<dependency>
 				<groupId>javax.inject</groupId>
