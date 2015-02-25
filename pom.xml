@@ -6,6 +6,12 @@
 	<packaging>pom</packaging>
 	<name>Java 8 project</name>
 
+	<properties>
+		<jutils.version>1.8</jutils.version>
+		<jutils.ee.version>1.2</jutils.ee.version>
+		<jutils.ee.common.version>1.0</jutils.ee.common.version>
+	</properties>
+
     <licenses>
         <license>
             <name>The MIT License (MIT)</name>
@@ -135,17 +141,17 @@
 			<dependency>
 				<groupId>com.minorityhobbies</groupId>
 				<artifactId>jutils</artifactId>
-				<version>1.7</version>
+				<version>${jutils.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.minorityhobbies</groupId>
 				<artifactId>jutils.ee</artifactId>
-				<version>1.2</version>
+				<version>${jutils.ee.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.minorityhobbies</groupId>
 				<artifactId>jutils.ee.common</artifactId>
-				<version>1.0</version>
+				<version>${jutils.ee.common.version}</version>
 			</dependency>
 
 			<dependency>
