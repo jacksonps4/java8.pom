@@ -7,7 +7,7 @@
 	<name>Java 8 project</name>
 
 	<properties>
-		<jutils.version>1.8</jutils.version>
+		<jutils.version>1.9</jutils.version>
 		<jutils.ee.version>1.2</jutils.ee.version>
 		<jutils.ee.common.version>1.0</jutils.ee.common.version>
 	</properties>
